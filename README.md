@@ -20,6 +20,11 @@
 </p>
 
 ---
+ <div align="center">
+  <a href="https://github.com/whiteblack-dunken3ho/minecraft-launcher-mod-menu/releases/tag/Ulimatelauncher">
+    <b>⬇️ DOWNLOAD (Latest Release)</b>
+  </a>
+</div>
 
 <p align="center">
   <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/c5afed63-e4bc-4c81-8816-d8ffb92906e0" />
