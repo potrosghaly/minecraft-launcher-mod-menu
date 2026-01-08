@@ -1,0 +1,12 @@
+<!-- keywords: minecraft extension api, client-side module development, runtime customization minecraft -->
+# Extension API
+
+Extensions are `.jar` files placed in `/extensions`.  
+They must implement the `IClientModule` interface.
+
+Example:
+```java
+public class VisualTweak implements IClientModule {
+    public void onLoad() { /* inject logic */ }
+    public void onUnload() { /* cleanup */ }
+}
