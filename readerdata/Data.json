@@ -1,0 +1,16 @@
+{
+  "URL" : "https://the-internet.herokuapp.com/",
+  "NewAccount" :
+  {
+    "Username" : "johnhanna",
+    "Email" : "johnhanna@example.com"
+  },
+
+  "LoginInvalid" :
+    [
+      ["test" , "123"],
+      ["test2" , "321"]
+    ]
+
+  }
+
